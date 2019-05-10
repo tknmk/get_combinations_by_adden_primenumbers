@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import sys
 import numpy as np
 import itertools
@@ -24,7 +26,10 @@ def main():
 def get_prime_nums(pn):
 
     max = int(np.sqrt(pn))
+    print(max)
     seachList = [i for i in range(2,pn+1)]
+    print(seachList)
+    exit()
     primeNum = []
     while seachList[0] <= max:
         primeNum.append(seachList[0])
