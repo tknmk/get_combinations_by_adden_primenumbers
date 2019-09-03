@@ -17,5 +17,5 @@ finally, get all combinations.
 
 1. git clone
 2. Edit this code as you want to.
-3. run!
+3. run! ($ python3 find_prime_num.py <number>)
 

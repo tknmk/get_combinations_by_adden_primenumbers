@@ -14,22 +14,23 @@ def main():
     # print Prime Numbers and count them
     pn_nums = get_prime_nums(pn)
     pn_count = len(pn_nums)
-    print(pn_nums)
+    print('Prime numbers are {0}'.format(pn_nums))
     print('Prime numbers count: {0}'.format(pn_count))
 
     # print combinations
     pairs = get_combinations(pn_nums, pn)
     pairs_count = len(pairs)
+    print('Combinations:')
     pprint.pprint(pairs)
     print('Combinations count: {0}'.format(pairs_count))
 
 def get_prime_nums(pn):
 
     max = int(np.sqrt(pn))
-    print(max)
+    #print(max)
     seachList = [i for i in range(2,pn+1)]
-    print(seachList)
-    exit()
+    #print(seachList)
+    
     primeNum = []
     while seachList[0] <= max:
         primeNum.append(seachList[0])
