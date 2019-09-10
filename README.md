@@ -19,3 +19,12 @@ finally, get all combinations.
 2. Edit this code as you want to.
 3. run! ($ python3 find_prime_num.py <number>)
 
+#### output
+
+```
+Prime numbers are [2, 3, 5, 7]
+Prime numbers count: 4
+Combinations:
+[(2, 3, 5), (3, 7)]
+Combinations count: 2
+```
